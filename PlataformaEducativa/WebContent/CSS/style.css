@@ -1,0 +1,90 @@
+@CHARSET "UTF-8";
+body{
+	width: 960px;
+	margin: 15 px auto;
+	text-align:  left;
+
+}
+#cabecera{
+	background: #FFFBB9;
+	border: 1px solid #999999;
+	padding: 20px;
+}
+#menu{
+	background: #CCCCCC;
+	padding: 5px 15px;
+}
+#menu li {
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font: bold 14px verdana, sans-serif;
+}
+#seccion{
+	float: left;
+	width:  660px;
+	margin: 20px;
+}
+#columna{
+	float: left;
+	width: 220px;
+	margin: 20px 0px;
+	padding: 20px;
+	background: #CCCCCC;
+	}
+#separador{
+	clear:both;
+	height: 1px;
+	
+	
+	
+}
+#elementos{
+	float: left;
+	width: 190px;
+	height: 500px;
+	border: 2px solid #999999;
+	background: #F6CECE;
+	padding: 6px;
+	margin-right: 4px;
+	border-radius: 4px;
+	
+	}
+	
+.elementohijo
+{
+	width: 180px;
+	border: 1px solid black;
+	font-size: 75%;
+	font-family: verdana;
+	background: #E6E6E6;
+	border-radius: 4px;
+}
+#conectores{
+	float: left;
+	width: 190px;
+	height: 500px;
+	border: 2px solid #999999;
+	background: #F1F8E0;
+	padding: 10px;
+	margin-right: 4px;
+	border-radius: 4px;
+	
+}
+#reglas{
+	float: left;
+	width: 190px;
+	height: 500px;
+	border: 2px solid #999999;
+	background: #CEE3F6;
+	padding: 10px;
+	border-radius: 4px;
+	
+}
+	
+#pie{
+	clear: both;
+	text-align:  center;
+	padding: 20px;
+	border-top:  2px solid #999999;
+}
