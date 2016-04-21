@@ -10,7 +10,7 @@
 <body>
 <% String presen=request.getParameter("presentacion"); %>
 <header id="cabecera">
-	<h1>Plataforma Aprendizaje </h1>
+	<h1>Plataforma Educativa </h1>
 </header>
 <nav id="menu">
 	<ul>

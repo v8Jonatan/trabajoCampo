@@ -10,37 +10,39 @@
 <body>
 <% String presen=request.getParameter("presentacion"); %>
 <header id="cabecera">
-	<h1>Plataforma Aprendizaje </h1>
+	<h1>Plataforma Educativa </h1>
 </header>
 <nav id="menu">
 	<ul>
 		<li>Home</li>
-		<li>Cursos</li>
+		<li> <a href="Cursos.jsp">Cursos </a> </li>
 		<li>Alumnos</li>
 		<li>Mis Cursos</li>
-		<li>Diagramas</li>
+		<li> <a href="Diagramas.jsp"> Diagramas</a> </li>
 	</ul>
 </nav>
 <section id="seccion">
-<h1>Bienvenido a la plataforma de aprendizaje</h1>
+<h1>Editor de Diagramas</h1>
 <article>
 
 <table>
  <tr>
- 	<td>Nombre: Diagrama de Casos de Uso</td>
+ 	<td>Diagrama de Casos de Uso</td>
  </tr>
  <tr>
-    <td>Descripción: Modela la interacción de los actores con el 
+    <td>Modela la interacción de los actores con el 
     	sistema, mostrando una vista de alto nivel del sistema completo</td>
     <td>
-    <a href="http://www.google.com">consultar</a>
+    
      </td>
  </tr>
+ <br> 
+ <br>
 </table>     
 
 </article>
 <div id="separador"></div>
-<div id="elementos">
+<div class="contenedor"  id="elementos">
 	<div class="elementohijo">
 	<strong>Nombre:</strong> Actor <br>
 	<strong>Descripción:</strong> Representa un usuario del sistema.<br>
@@ -48,16 +50,31 @@
     <img  width="40" height="25" border="1px solid black" src="images/actor.png">
      
 	</div>
+	
+	<div class="elementohijo">
+	<strong>Nombre:</strong> Caso de Uso <br>
+	<strong>Descripción:</strong> Representa una función del sistema.<br>
+	<strong>Imagen:</strong> <br>
+    <img  width="40" height="25" border="1px solid black" src="images/actor.png">
+     
+	</div>
 </div>
-<div id="conectores">
+<div class="contenedor" id="conectores">
+	<div class="elementohijo">
+		<strong>Nombre:</strong> Asociación <br>
+		<strong>Descripción:</strong> Conecta un actor con el caso de uso<br>
+		<strong>Imagen:</strong> <br>
+	</div>
 </div>
-<div id="reglas">
+
+
+<div class="contenedor" id="reglas">
 </div>
 
  </section>
 <aside id="columna">
 <ul>
-<li> Elem</li>
+<li> Contenido</li>
 <li> Cronograma</li>
 <li> Alumnos</li>
 </ul> 

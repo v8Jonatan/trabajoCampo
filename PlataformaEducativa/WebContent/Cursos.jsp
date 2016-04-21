@@ -5,12 +5,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="CSS/style.css">
-<title>Plataforma Educativa</title>
+<title>cursos</title>
 </head>
 <body>
 <% String presen=request.getParameter("presentacion"); %>
 <header id="cabecera">
-	<h1>Plataforma Aprendizaje </h1>
+	<h1>Plataforma  Educativa </h1>
 </header>
 <nav id="menu">
 	<ul>
@@ -22,33 +22,40 @@
 	</ul>
 </nav>
 <section id="seccion">
-<h1>Bienvenido a la plataforma de aprendizaje</h1>
+<h1>Cursos Disponibles</h1>
 <article>
 
+<input type="search" >
+<input type="button" value="Buscar Cursos" >
+<br>
+<div class=curso>
 <table>
  <tr>
- 	<td>Nombre: Diagrama de Casos de Uso</td>
+ 	<td>Nombre: Herramientas y Procesos de Software</td>
  </tr>
  <tr>
-    <td>Descripción: Modela la interacción de los actores con el 
-    sistema, mostrando una vista de alto nivel del sistema completo</td>
+    <td>Descripción: La materia del profesor amilivia que esta loco loco</td>
     <td>
-    <a href="EditorDiagrama.jsp">consultar</a>
+    
+    <a class="button" href="http://www.google.com">consultar</a>
      </td>
  </tr>
+ </table>
+ </div>
+ <div class=curso>
+ <table>
   <tr>
- 	<td>Nombre: Camino Critico</td>
+ 	<td>Nombre: Diseño de bases de datos</td>
  </tr>
  <tr>
-    <td>Descripción: Muestra el cronograma de una proyecto en tiempos
-    y permite ver las actividades criticas que no pueden retrasarse
-    para que el proyecto se cumpla en la fecha planeada</td>
+    <td>Descripción: La materia de Mister vinjoy alias una 
+    pavada :D</td>
     <td>
     consultar
      </td>
  </tr>
 </table>     
-
+</div>
 
 </article>
  </section>
